@@ -13,6 +13,7 @@ namespace leveldb {
 class AutoCompactTest {
  public:
   std::string dbname_;
+  std::string mynametest_;
   Cache* tiny_cache_;
   Options options_;
   DB* db_;
